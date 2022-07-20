@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color : lightblue;
+    
+
+}
+.common {
+    /*!*width: 100%;*!*/
+    /*!*margin-left: auto;*!*/
+    /*!*margin-right: auto ;*!*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    /*margin : 0 auto;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+strong {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 30px;
+}
+input {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+input:nth-child(8),
+input:nth-child(9) {
+    background-color: pink;
+    border-radius: 5px;
+
+}
+.span {
+    margin-left: 150px;
+    margin-top: 25px;
+}
+span {
+    font-size: 26px;
+    margin-right: 24px;
+}
